@@ -16,6 +16,13 @@ for (let i = 0; i<projectClass.length; i++) {
     imgTwo.src = "./images/magnify.svg"
     imgThree.src = "./images/share-variant-outline.svg"
 
+    imgOne.style.width = "200px"
+    imgOne.style.height = "200px"
+    imgTwo.style.width = "200px"
+    imgTwo.style.height = "200px"
+    imgThree.style.width = "200px"
+    imgThree.style.height = "200px"
+
     projectCards.appendChild(parOne)
     projectCards.appendChild(parTwo)
     projectCards.appendChild(imgOne)
