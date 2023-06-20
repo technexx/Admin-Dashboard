@@ -1,7 +1,9 @@
-const projectCards = document.querySelectorAll(".projects > .card")
-console.log(projectCards)
+const projectCards = document.querySelector(".projects")
 
-for (let i = 0; i<projectCards.length; i++) {
+for (let i=0; i<6; i++) {
+    const cardElement = document.createElement("div")
+    cardElement.classList.add("card")
+
     var parOne = document.createElement("p");
     var parTwo = document.createElement("p");
 
@@ -24,11 +26,13 @@ for (let i = 0; i<projectCards.length; i++) {
     imgThree.style.width = "30px"
     imgThree.style.height = "30px"
 
-    projectCards[i].appendChild(parOne)
-    projectCards[i].appendChild(parTwo)
-    projectCards[i].appendChild(imgOne)
-    projectCards[i].appendChild(imgTwo)
-    projectCards[i].appendChild(imgThree)
+    cardElement.appendChild(parOne)
+    cardElement.appendChild(parTwo)
+    cardElement.appendChild(imgOne)
+    cardElement.appendChild(imgTwo)
+    cardElement.appendChild(imgThree)
+
+    projectCards.appendChild(cardElement)
 
     console.log("project cards are " + projectCards)
 }
