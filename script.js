@@ -1,6 +1,7 @@
-let projectCards = document.querySelectorAll("#projects > #card")
+const projectCards = document.querySelectorAll(".projects > .card")
+console.log(projectCards)
 
-for (let i = 0; i<projectClass.length; i++) {
+for (let i = 0; i<projectCards.length; i++) {
     var parOne = document.createElement("p");
     var parTwo = document.createElement("p");
 
@@ -16,18 +17,18 @@ for (let i = 0; i<projectClass.length; i++) {
     imgTwo.src = "./images/magnify.svg"
     imgThree.src = "./images/share-variant-outline.svg"
 
-    imgOne.style.width = "200px"
-    imgOne.style.height = "200px"
-    imgTwo.style.width = "200px"
-    imgTwo.style.height = "200px"
-    imgThree.style.width = "200px"
-    imgThree.style.height = "200px"
+    imgOne.style.width = "30px"
+    imgOne.style.height = "30px"
+    imgTwo.style.width = "30px"
+    imgTwo.style.height = "30px"
+    imgThree.style.width = "30px"
+    imgThree.style.height = "30px"
 
-    projectCards.appendChild(parOne)
-    projectCards.appendChild(parTwo)
-    projectCards.appendChild(imgOne)
-    projectCards.appendChild(imgTwo)
-    projectCards.appendChild(imgThree)
+    projectCards[i].appendChild(parOne)
+    projectCards[i].appendChild(parTwo)
+    projectCards[i].appendChild(imgOne)
+    projectCards[i].appendChild(imgTwo)
+    projectCards[i].appendChild(imgThree)
 
     console.log("project cards are " + projectCards)
 }
