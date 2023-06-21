@@ -1,5 +1,5 @@
-/*Grid for dashboard, header, projects, announcement, trending (as containers)
-/*Flex for content within containers */
+/*Grid for dashboard, header, projects, announcement, trending (as containers)*/
+/*Flex for content within containers*/
 
 .container {
     display: grid;
@@ -54,7 +54,36 @@ img {
 .header-top-profile-elements {
     display: flex;
     align-items: center;
-    gap: 20px
+    gap: 20px;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    border: 3px solid green;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-bottom-profile-elements {
+    display: flex;
+    align-items: center;
+}
+
+.header-bottom-profile-elements .user-welcome {
+    width: 15vw;
+}
+
+.header-bottom-buttons {
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.header-bottom button {
+    width: 90px;
+    height: 40px;
+    border-radius: 40%;
 }
 
 #search_bar {
