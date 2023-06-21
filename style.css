@@ -7,8 +7,19 @@
 }
 
 .dashboard {
-    /* grid-row: 1 /2; */
-    border: solid 2px blue
+    display: flex;
+    flex-direction: column;
+    border: solid 2px blue;
+}
+
+.dashboard > * {
+    display: flex;
+    align-items: center;
+}
+
+.dashboard img {
+    width: 30px;
+    height: 30px;
 }
 
 img {
