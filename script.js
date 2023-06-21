@@ -35,5 +35,6 @@ for (let i=0; i<6; i++) {
 
     projectCards.appendChild(cardElement)
 
-    console.log("project cards are " + projectCards)
+    
+    console.log("card elements are " + cardElement.innerHTML)
 }

@@ -3,7 +3,10 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows:  1fr 5fr;
+    border: 8px solid yellow;
+    height: 100vh;
 }
 
 img {
@@ -60,7 +63,6 @@ img {
 .header-bottom {
     display: flex;
     align-items: center;
-    border: 3px solid green;
     align-items: center;
     justify-content: space-between;
 }
@@ -107,7 +109,35 @@ img {
     height: 125px;
 }
 
+.main {
+    display: flex;
+    border: 3px solid purple;
+    grid-row: 2 / 3;
+    gap: 30px
+}
+
+.main-left-side {
+    width: 80%;
+}
+
+.main-right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.projects .card {
+    background-color: lightgrey;
+    border-radius: 10%;
+    padding: 10px;
+}
+
 .trending img {
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
 }
