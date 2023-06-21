@@ -15,6 +15,16 @@
 .dashboard > * {
     display: flex;
     align-items: center;
+    gap: 20px;
+}
+
+.dashboard .heading_text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dashboard .heading {
+    margin-bottom: 5vh
 }
 
 .dashboard img {
