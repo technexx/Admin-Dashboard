@@ -1,5 +1,4 @@
 const projectCards = document.querySelector(".projects")
-projectCards.style.border = "2px solid green"
 
 for (let i=0; i<6; i++) {
     const cardElement = document.createElement("div")
