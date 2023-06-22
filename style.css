@@ -110,32 +110,38 @@ img {
 }
 
 .main {
-    display: flex;
-    border: 3px solid purple;
-    gap: 30px
-}
-
-.main-left-side {
-    width: 75%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border: 3px solid #800080;
+    gap: 30px;
 }
 
 .main-right-side {
-    display: flex;
-    flex-direction: column;
+    grid-template-rows: 1fr 1fr;
+}
+
+.announcements {
+    grid-row: 1/2;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.trending {
+    grid-row: 2 / 3;
 }
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-row: 2 / 4;
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 15px;
+    row-gap: 15px;
     margin: 30px;
     border: 3px solid green
 }
 
 .projects .card {
     background-color: lightgrey;
-    border-radius: 10%;
+    border-radius: 5px;
     padding: 10px;
     height: 200px;
 }
