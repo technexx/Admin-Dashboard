@@ -11,14 +11,6 @@ for (let i=0; i<6; i++) {
     parOne.innerText = "Title!"
     parTwo.innerText = "Text!"
 
-    // let buttonOne = document.createElement("button")
-    // let buttonTwo = document.createElement("button")
-    // let buttonThree = document.createElement("button")
-
-    // buttonOne.type = "button"
-    // buttonTwo.type = "button"
-    // buttonThree.type = "button"
-
     let linkOne = document.createElement("a")
     let linkTwo = document.createElement("a")
     let linkThree = document.createElement("a")
