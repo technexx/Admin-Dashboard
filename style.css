@@ -69,8 +69,11 @@ img {
 
 .header-top-profile-elements {
     display: flex;
+    flex: 1;
     align-items: center;
     gap: 20px;
+    justify-content: end;
+    margin-right: 55px;
 }
 
 .header-bottom {
@@ -96,8 +99,10 @@ img {
 
 .header-bottom-buttons {
     display: flex;
+    flex: 1;
     gap: 20px;
     margin-right: 20px;
+    justify-content: end;
 }
 
 .header-bottom button {
