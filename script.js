@@ -11,6 +11,22 @@ for (let i=0; i<6; i++) {
     parOne.innerText = "Title!"
     parTwo.innerText = "Text!"
 
+    // let buttonOne = document.createElement("button")
+    // let buttonTwo = document.createElement("button")
+    // let buttonThree = document.createElement("button")
+
+    // buttonOne.type = "button"
+    // buttonTwo.type = "button"
+    // buttonThree.type = "button"
+
+    let linkOne = document.createElement("a")
+    let linkTwo = document.createElement("a")
+    let linkThree = document.createElement("a")
+
+    linkOne.href = ""
+    linkTwo.href = ""
+    linkThree.href = ""
+
     let imgOne = document.createElement("img")
     let imgTwo = document.createElement("img")
     let imgThree = document.createElement("img")
@@ -26,14 +42,17 @@ for (let i=0; i<6; i++) {
     imgThree.style.width = "30px"
     imgThree.style.height = "30px"
 
+    linkOne.appendChild(imgOne)
+    linkTwo.appendChild(imgTwo)
+    linkThree.appendChild(imgThree)
+
     cardElement.appendChild(parOne)
     cardElement.appendChild(parTwo)
-    cardElement.appendChild(imgOne)
-    cardElement.appendChild(imgTwo)
-    cardElement.appendChild(imgThree)
+    cardElement.appendChild(linkOne)
+    cardElement.appendChild(linkTwo)
+    cardElement.appendChild(linkThree)
 
     projectCards.appendChild(cardElement)
 
-    
     console.log("card elements are " + cardElement.innerHTML)
 }
