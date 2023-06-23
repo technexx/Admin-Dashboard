@@ -117,7 +117,7 @@ img {
     display: grid;
     /*Announcement/trending increases in width if we use (fr) columns*/
     grid-template-columns: 3fr 300px;
-    grid-template-rows: 30px 300px 30px 300px;
+    grid-template-rows: 80px 300px 80px 300px;
     border: 3px solid #800080;
     background-color: #e2e8f0;
 }
@@ -126,6 +126,7 @@ img {
     font-size: 22px;
     /* border: 3px solid orange; */
     margin-left: 30px;
+    margin-top: 40px;
 }
 
 .projects {
@@ -152,6 +153,7 @@ img {
 
 .announcements-header {
     font-size: 22px;
+    margin-top: 40px;
     /* border: 3px solid green */
 }
 
@@ -163,12 +165,23 @@ img {
     border-radius: 5px;
     background-color: white;
     box-shadow: 00px 10px 10px lightgray;
-    
+    margin-bottom: 50px;
     /* border: 3px solid green */
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.announcements .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2px;
 }
 
 .trending-header {
     font-size: 22px;
+    margin-top: 40px;
     /* border: 3px solid green */
 }
 
