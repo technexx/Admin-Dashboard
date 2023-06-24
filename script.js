@@ -37,12 +37,17 @@ for (let i=0; i<6; i++) {
     linkOne.appendChild(imgOne)
     linkTwo.appendChild(imgTwo)
     linkThree.appendChild(imgThree)
+    
+    const buttonHolder = document.createElement("div")
+    buttonHolder.classList.add("button-holder")
+
+    buttonHolder.appendChild(linkOne)
+    buttonHolder.appendChild(linkTwo)
+    buttonHolder.appendChild(linkThree)
 
     cardElement.appendChild(parOne)
     cardElement.appendChild(parTwo)
-    cardElement.appendChild(linkOne)
-    cardElement.appendChild(linkTwo)
-    cardElement.appendChild(linkThree)
+    cardElement.appendChild(buttonHolder)
 
     projectCards.appendChild(cardElement)
 

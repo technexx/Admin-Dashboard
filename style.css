@@ -191,12 +191,20 @@ img {
 }
 
 .projects .card {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
     background-color: white;
     border-radius: 10px;
     padding: 10px;
     height: 200px;
     box-shadow: 0px 10px 10px lightgray;
     border-left: 4px solid red
+}
+
+.projects .button-holder {
+    align-self: end;
+    margin-top: auto;
 }
 
 .announcements-header {
