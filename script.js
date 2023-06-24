@@ -8,6 +8,7 @@ for (let i=0; i<6; i++) {
     var parTwo = document.createElement("p");
 
     parOne.classList.add("title")
+    parTwo.classList.add("text")
     parOne.innerText = "Title!"
     parTwo.innerText = "Text!"
 
