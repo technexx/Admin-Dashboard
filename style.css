@@ -199,7 +199,8 @@ img {
     padding: 10px;
     height: 200px;
     box-shadow: 0px 10px 10px lightgray;
-    border-left: 4px solid red
+    border-left: 4px solid red;
+    
 }
 
 .projects .title {
@@ -207,11 +208,17 @@ img {
     font-weight: bold;
     margin-top: 15px;
     margin-left: 10px;
+    margin-bottom: 5px;
 }
 
+/*Buttons get pushed out, too*/
 .projects .text {
     font-size: 18px;
-    margin-left: 10px;
+    margin-left: 10px;   
+    overflow-wrap: break-word;
+    /* word-wrap: break-word;
+    word-break: break-all; */
+
 }
 
 .projects .button-holder {
@@ -253,6 +260,11 @@ img {
     margin-bottom: 2px;
 }
 
+.announcements .text {
+    font-size: 18px;
+    overflow-wrap: break-word;
+}
+
 .announcements hr {
     margin-top: 15px;
 }
@@ -285,11 +297,6 @@ img {
     justify-content: center;
     align-items: center;
     margin-left: 10px;
-}
-
-.trending .card {
-    /* display: flex; */
-    /* flex-direction: column; */
 }
 
 .trending img {
