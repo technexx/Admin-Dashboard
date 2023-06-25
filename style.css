@@ -180,7 +180,7 @@ img {
     font-size: 22px;
     /* border: 3px solid orange; */
     margin-left: 30px;
-    margin-top: 40px;
+    margin-top: 15px;
     font-weight: bold;
 }
 
@@ -192,7 +192,7 @@ img {
     row-gap: 15px;
     margin-left: 30px;
     margin-right: 30px;
-    margin: 20px;
+    margin-top: 10px;
     /* border: 3px solid green */
 }
 
@@ -238,19 +238,18 @@ img {
 
 .announcements-header {
     font-size: 22px;
-    margin-top: 40px;
+    margin-top: 15px;
     font-weight: bold;
     /* border: 3px solid green */
 }
 
 .announcements {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 20px;
     padding: 20px;
     border-radius: 5px;
     background-color: white;
     box-shadow: 00px 10px 10px lightgray;
-    margin-bottom: 50px;
     /* border: 3px solid green */
 
     display: flex;
@@ -259,13 +258,13 @@ img {
 }
 
 .announcements .title {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 2px;
 }
 
 .announcements .text {
-    font-size: 18px;
+    font-size: 15px;
     overflow-wrap: break-word;
 }
 
@@ -276,8 +275,8 @@ img {
 .trending-header {
     font-size: 22px;
     font-weight: bold;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
     /* border: 3px solid green */
 }
 
