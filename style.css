@@ -214,17 +214,20 @@ img {
     margin-top: 5px;
     margin-left: 10px;
     margin-bottom: 10px;
+
+    /* display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden; */
 }
 
 /*Buttons get pushed out, too*/
 .projects .text {
     font-size: 18px;
-    margin-left: 10px;
-    
-    /* text-overflow: ellipsis; */
+    margin-left: 10px;    
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 5;
+    -webkit-line-clamp: 6;
     overflow: hidden;
 }
 
@@ -267,7 +270,7 @@ img {
 }
 
 .announcements .text {
-    font-size: 15px;
+    font-size: 16px;
     overflow-wrap: break-word;
 }
 
@@ -295,13 +298,13 @@ img {
 .trending .card {
     display: flex;
     margin-bottom: 15px;
+    font-size: 16px;
 }
 
 .trending .trending-users {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     margin-left: 10px;
 }
 
