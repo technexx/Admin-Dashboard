@@ -22,25 +22,26 @@ for (let i=0; i<6; i++) {
     const cardElement = document.createElement("div")
     cardElement.classList.add("card")
 
-    var parOne = document.createElement("p");
-    var parTwo = document.createElement("p");
+    const parOne = document.createElement("p");
+    const parTwo = document.createElement("p");
 
     parOne.classList.add("title")
     parTwo.classList.add("text")
+
     parOne.innerText = titleArray[i]
     parTwo.innerText = textArray[i]
 
-    let linkOne = document.createElement("a")
-    let linkTwo = document.createElement("a")
-    let linkThree = document.createElement("a")
+    const linkOne = document.createElement("a")
+    const linkTwo = document.createElement("a")
+    const linkThree = document.createElement("a")
 
     linkOne.href = ""
     linkTwo.href = ""
     linkThree.href = ""
 
-    let imgOne = document.createElement("img")
-    let imgTwo = document.createElement("img")
-    let imgThree = document.createElement("img")
+    const imgOne = document.createElement("img")
+    const imgTwo = document.createElement("img")
+    const imgThree = document.createElement("img")
 
     imgOne.src = "./images/star-plus-outline.svg"
     imgTwo.src = "./images/magnify.svg"
