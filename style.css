@@ -219,9 +219,12 @@ img {
 /*Buttons get pushed out, too*/
 .projects .text {
     font-size: 18px;
-    margin-left: 10px;   
-    /* overflow: hidden; */
-    text-overflow: ellipsis;
+    margin-left: 10px;
+    
+    /* text-overflow: ellipsis; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
     overflow: hidden;
 }
 
