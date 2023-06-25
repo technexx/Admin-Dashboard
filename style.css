@@ -131,6 +131,11 @@ img {
     gap: 20px;
     margin-right: 20px;
     justify-content: end;
+    cursor: crosshair;
+}
+
+.header-bottom-buttons button:hover {
+    cursor:pointer
 }
 
 .header-bottom button {
